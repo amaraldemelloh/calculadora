@@ -16,10 +16,10 @@
         <button class='clear' onclick='res.innerText = res.innerText.slice(0, -1)'>⌫</button>
         <div id='numbers'></div>
         <div id='operators'>
-            <button class="operators">÷</button>
-            <button class="operators">×</button>
-            <button class="operators">-</button>
-            <button class="operators">+</button>
+            <button class="operators" onclick='res.innerText += "/"'>÷</button>
+            <button class="operators" onclick='res.innerText += "*"'>×</button>
+            <button class="operators" onclick='res.innerText += "-"'>-</button>
+            <button class="operators" onclick='res.innerText += "+"'>+</button>
             <button id='calc' onclick='calc()'>=</button>
         </div>
     </main>
